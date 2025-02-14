@@ -1,0 +1,108 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    font-size: 30px;
+    color: red;
+}
+
+h1{
+    color: red;
+}
+
+.heading{
+    color: green;
+}
+
+#paragraph{
+    font-size: 50px;
+    color: brown;
+}
+
+h1, p{
+    color: yellow;
+} */
+
+/* div h1{
+    background-color: gray;
+}
+
+div > p{
+    background-color: green;
+}
+div p{
+    background-color: green;
+} */
+
+div + p{
+    color: red;
+}
+
+div ~ p{
+    color: red;
+}
+
+/* input{
+    border: 5px solid blue;
+} */
+
+/* input{
+    background-color: red;
+    color: aqua;
+} */
+
+/* input[type="password"] {
+    border: 5px solid blue;
+  } */
+
+  /* h1{
+    color: green;
+  }
+
+  h2{
+    color: green;
+  }
+
+  p{
+    color: green;
+  } */
+
+  /* h1, h2, p{
+    color: green;
+  } */
+
+
+
+  /* .text{
+    color: red;
+  }
+
+  #text3{
+    color: blue;
+  }
+
+
+
+
+  .card p{
+    background-color: yellow;
+  }
+
+  .card ~ p{
+    color: blue;
+  } */
+
+  /* input[type="text"] {
+    border: 1px solid black;
+  } */
+
+  /* input{
+    border: 5px solid pink;
+  } */
+
+  input[type="text"]{
+    border: 5px solid pink;
+  }
