@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.card{
+    width: 500px;
+    height: 300px;
+    border: 5px solid red;
+    display: flex;
+}
+
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border: 2px solid brown;
+    /* margin-left: 100px; */
+    margin-right: 100px;
+}
+
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border: 2px solid brown;
+}
+
+.card{
+    width: 100%;
+    height: 100vh;
+    padding-left: 100px;
+}
+
