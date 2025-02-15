@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .loading::before {
+          content: '⏳'; /* Yuklanish belgisi */
+          animation: spin 1s linear infinite; /* Animatsiya qo'shish */
+          display: inline-block;
+          margin-right: 10px;
+        }
+      .loading::after{
+          content: '⏳'; /* Yuklanish belgisi */
+          animation: spin 1s linear infinite; /* Animatsiya qo'shish */
+          display: inline-block;
+          margin-left: 10px;
+      }
+        @keyframes spin {
+          0% { transform: rotate(0deg); }
+          100% { transform: rotate(360deg); }
+        }
+      </style>
+</head>
+<body>
+
+<!-- <div class="container">
+    <div class="box">box1</div>
+    <div class="card">box2</div>
+</div>
+
+ <h1>Qovun</h1>
+ <h2>Tarvuz</h2>
+ <h3>Olma</h3> -->
+
+ <!-- <button>Read</button>
+<input type="text"> -->
+
+<!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, nemo!</p>
+<h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, fugiat.</h1>
+
+<div class="card">
+    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, atque.</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, animi.</p>
+</div> -->
+
+<div class="loading">Loading...</div>
+
+    
+</body>
+</html>
+
+
+
+
+
+
+<!-- 1. Text-align
+Bu xususiyat matnning gorizontal joylashuvini boshqaradi. U matnni chap, o'ng, markaz yoki justify qilish uchun ishlatiladi.
+
+text-align: left; – Matnni chap tomonga joylaydi (default).
+text-align: right; – Matnni o'ng tomonga joylaydi.
+text-align: center; – Matnni markazga joylaydi.
+text-align: justify; – Matnni bir xil joyga tarqatib, chap va o'ng chekkalarni tekislaydi.
+
+
+3. Float
+Bu xususiyat elementning oqimidan chiqib, yonma-yon joylashishini boshqaradi. Odatda rasmlar yoki matn bilan ishlaganda qo'llaniladi.
+
+float: left; – Elementni chapga suradi, boshqa elementlar uning o'ng tomonida joylashadi.
+float: right; – Elementni o'ngga suradi, boshqa elementlar uning chap tomonida joylashadi.
+float: none; – Oqimga qaytaradi (default holat).
+
+
+CSSda text decoration, pseudo classes, va qoidalarni guruhlash veb-sahifadagi elementlarning ko‘rinishi va interaktivligini boshqarishga yordam beradi. Quyida ularning har biri haqida batafsil ma’lumot beraman.
+
+1. Text Decoration
+text-decoration xususiyati matnning ko'rinishini o'zgartirish uchun ishlatiladi, masalan, ostiga chiziq chizish, o'chirish yoki rang berish kabi o'zgarishlarni amalga oshiradi. Bu odatda havolalar (links) yoki matnni urg'ulashda keng qo'llaniladi.
+
+text-decoration ning asosiy qiymatlari:
+
+text-decoration: underline; – Matn ostiga chiziq chizadi.
+text-decoration: overline; – Matn ustiga chiziq chizadi.
+text-decoration: line-through; – Matn ustidan o’chirilgan (strike-through) chiziq chizadi.
+text-decoration: none; – Matnning barcha dekoratsiyalarini olib tashlaydi (masalan, linklardagi ostki chiziqni olib tashlash uchun).
+
+
+2. Pseudo Classes
+Pseudo-klasslar elementlarning ma'lum holatida ularning uslubini o'zgartirish imkonini beradi. Ular biror elementga foydalanuvchi bilan o'zaro ta'sir qilganida yoki ma'lum bir holatga tushganda qo'llaniladi.
+
+Eng keng tarqalgan pseudo-classlar:
+
+:hover – Foydalanuvchi element ustiga sichqoncha olib kelsa, elementga ta'sir qiladi.
+:focus – Foydalanuvchi elementga (masalan, inputga) e'tibor qaratganida ishlatiladi.
+
+      input:focus {
+            outline: 2px solid blue;
+            background-color: #f0f8ff;
+        }
+:active – Foydalanuvchi elementga bosganda faollashadi.
+
+        button:active {
+            background-color: red;
+            color: white;
+            transform: scale(0.95);
+        }
+:first-child – Eng birinchi farzand elementni nishonga oladi.
+
+
+3. Qoidalarni guruhlash
+CSSda bir nechta elementlarga bir xil uslubni berish uchun qoidalarni guruhlash mumkin. Bu uslubni takrorlashni oldini oladi va kodni soddalashtiradi.
+
+Qoidalarni guruhlash uchun elementlarni vergul bilan ajratish kerak:
+
+
+4. Pseudo-elementlar
+Pseudo-elementlar esa sahifadagi elementning biror qismiga uslub qo'llash imkonini beradi. Ular ikkita ikkita nuqta bilan boshlanadi (::). Eng keng tarqalgani:
+
+::before – Biror elementning ichida, uning oldidan tarkib qo‘shish imkonini beradi.
+::after – Biror elementning ichida, uning orqasidan tarkib qo‘shish imkonini beradi.
+
+    <style>
+        .loading::before {
+          content: '⏳'; /* Yuklanish belgisi */
+          animation: spin 1s linear infinite; /* Animatsiya qo'shish */
+          display: inline-block;
+          margin-right: 10px;
+        }
+      .loading::after{
+          content: '⏳'; /* Yuklanish belgisi */
+          animation: spin 1s linear infinite; /* Animatsiya qo'shish */
+          display: inline-block;
+          margin-left: 10px;
+      }
+        @keyframes spin {
+          0% { transform: rotate(0deg); }
+          100% { transform: rotate(360deg); }
+        }
+      </style>
+
+Text decoration matnni urg‘ulash uchun ishlatiladi.
+Pseudo-classes interaktiv holatlarni ko'rsatadi, masalan, hover yoki active holatlari.
+Qoidalarni guruhlash esa bir nechta elementlarga bir xil uslub qo‘llashga yordam beradi, kodni toza saqlaydi. -->

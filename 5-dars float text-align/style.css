@@ -1,0 +1,88 @@
+/* .container{
+    display: flex;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    float: right;
+    float: none;
+}
+.card{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    float: right;
+    float: none;
+}
+
+h2{
+    text-decoration: underline;
+    text-decoration: none;
+}
+h3{
+    text-decoration: overline;
+}
+
+h4{
+    text-decoration: line-through;
+} */
+
+/* button{
+    padding: 10px 30px;
+    background-color: red;
+    color: white;
+}
+
+button:hover{
+background-color: green;
+color: red;
+} */
+
+/* input{
+    border: 2px solid red;
+}
+
+input:focus{
+background-color: red;
+border: 10px solid green;
+} */
+
+/* button{
+    padding: 10px 30px;
+    background-color: red;
+    color: white;
+}
+
+button:active{
+background-color: green;
+color: red;
+transform: scale(2);
+} */
+
+/* p:first-child{
+    color: green;
+} */
+
+/* p:last-child{
+    color: red;
+} */
+
+/* p:nth-child(5){
+    color: green;
+} */
+
+/* p h1{
+    color: aqua;
+} */
+
+.card h1,p{
+    color: aqua;
+}
+
+
+input:focus{
+    background-color: red;
+    border: 10px solid green;
+    } 
