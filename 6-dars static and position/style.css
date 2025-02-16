@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .card{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: -40px;
+    background-color: aqua;
+} */
+
+.card{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    margin-left: 300px;
+}
+
+.box{
+    width: 20px;
+    height: 20px;
+    background-color: blueviolet;
+}
+.box-1{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+.box-2{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.box-3{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    
+}
+
+.box-4{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
