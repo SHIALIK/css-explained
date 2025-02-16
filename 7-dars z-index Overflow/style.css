@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    gap: 40px;
+}
+
+.card{
+    width: 100px;
+    height: 100px;
+    border: 2px solid red;
+    overflow: visible;
+}
+
+.card1{
+    width: 100px;
+    height: 100px;
+    border: 2px solid red;
+    overflow: hidden;
+}
+
+.card2{
+    width: 100px;
+    height: 100px;
+    border: 2px solid red;
+    overflow: scroll;
+}
+
+.card3{
+    width: 100px;
+    height: 100px;
+    border: 2px solid red;
+    overflow: auto;
+}
