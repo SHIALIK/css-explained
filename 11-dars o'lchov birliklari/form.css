@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #1a1a1a;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    background-color: #1a1a1a;
+  }
+
+  
+  .left {
+    padding: 40px;
+  }
+  
+  .left h1 {
+    font-size: 2rem;
+    color: #ffffff;
+  }
+
+  
+  .underline {
+    width: 60px; /* Chiziq uzunligi */
+    height: 2px; /* Chiziq qalinligi */
+    background-color: #8e44ad; /* Chiziq rangi */
+    margin:50px 0;
+  }
+  
+  
+  .left .b2b {
+    background-color: #8e44ad;
+    color: #fff;
+    padding: 4px 8px;
+    font-size: 0.9rem;
+    border-radius: 4px;
+  }
+  
+  .left h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .left p {
+    font-size: 0.8rem;
+    color: #666;
+    margin-top: 20px;
+  }
+  
+  .right {
+    background-color: #292929;
+    padding: 40px;
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+  }
+  
+  .right h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group label {
+    display: block;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    color: #ccc;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .options {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .checkbox-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .checkbox-group input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .options a {
+    color: #8e44ad;
+    text-decoration: none;
+  }
+  
+  
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #8e44ad;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #732d91;
+  }
+  
+  .register-link {
+    display: block;
+    text-align: center;
+    color: #8e44ad;
+    margin-top: 15px;
+    text-decoration: none;
+  }
+  
+  .register-link:hover {
+    text-decoration: underline;
+  }
+  
