@@ -1,0 +1,41 @@
+.card{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+
+@media (max-width:800px) {
+   .card{
+    width: 500px;
+    height: 500px;
+    background-color: green;
+    color: red;
+   } 
+}
+
+@media (max-width:500px) {
+    .card{
+        width: 400px;
+        height: 400px;
+        background-color: red;
+        color: green;
+       } 
+
+       .card h1{
+        text-align: center;
+       }
+}
+
+@media (max-width:350px) {
+    .card{
+        width: 350px;
+        height: 350px;
+        background-color: red;
+        color: blue;
+       } 
+
+       .card h1{
+        text-align: right;
+       }
+}
