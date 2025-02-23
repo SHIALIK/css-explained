@@ -1,0 +1,50 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation-name: card;
+    animation-duration: 2s;
+    /* animation-timing-function: ease; */
+    /* animation-timing-function: ease-in; */
+    /* animation-timing-function: ease-out; */
+    animation-timing-function: linear;
+    /* animation-timing-function: ease-in-out; */
+    /* animation-delay: 2s; */
+    animation-iteration-count: 2;
+    /* animation-iteration-count: infinite; */
+    /* animation-direction: normal;
+    animation-direction: reverse;
+    animation-direction: alternate;
+    animation-direction: alternate-reverse; */
+    /* animation-direction: alternate; */
+    /* animation-direction: reverse; */
+    animation-fill-mode: forwards;
+    animation-direction: alternate-reverse;
+    animation-play-state: paused;
+
+
+
+}
+
+.card:hover{
+    animation-play-state: running;
+
+    background-color: green;
+}
+
+@keyframes card {
+    from{
+        transform: translateX(0px);
+    }
+    to{
+       transform: translateX(500px);
+       background-color: yellow;
+    }
+}
