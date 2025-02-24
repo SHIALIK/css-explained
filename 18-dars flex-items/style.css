@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    gap: 30px;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.box-1{
+    order: 2;
+    /* flex-grow: 3; */
+
+}
+
+.box-2{
+    order: 4;
+    /* flex-grow: 2; */
+    /* flex-shrink: 5; */
+
+}
+
+.box-3{
+    order: 5;
+    /* flex-grow: 1; */
+}
+
+.box-4{
+    order: 1;
+}
+
+.box-5{
+    order: 3;
+    /* flex-grow: 4; */
+    /* flex-shrink: 3; */
+    flex: 1 2 400px;
+}

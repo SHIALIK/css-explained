@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-items</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+
+  <div class="container">
+    <div class="box box-1"><h1>1</h1></div>
+    <div class="box box-2"><h1>2</h1></div>
+    <div class="box box-3"><h1>3</h1></div>
+    <div class="box box-4"><h1>4</h1></div>
+    <div class="box box-5"><h1>5</h1></div>
+  </div>
+
+</body>
+</html>
+
+<!-- 
+ order — tartibni belgilash
+order yordamida flex items'larning ekrandagi tartibini o'zgartirish mumkin. Odatda, HTML kodida qanday yozilgan bo‘lsa, shunday ko‘rinadi. Lekin order bilan joylashuvni o‘zgartirish mumkin.
+
+flex-grow (o'sish)
+flex-grow elementning bo‘sh joyni qanday taqsimlashini bildiradi.
+Agar flex-grow: 1; bo‘lsa, barcha itemlar bo‘sh joyni teng taqsimlaydi.
+
+
+flex-shrink (kichrayish)
+Ekran kichrayganda elementlar qanday qisqarishini bildiradi.
+Agar flex-shrink: 0; bo‘lsa, element hajmi o‘zgarmaydi.
+
+flex-basis flex itemning boshlang‘ich o‘lchamini (kenglik yoki balandlik) belgilaydi.
+Bu qiymat width yoki height o‘rnini bosadi, ammo flex konteyner ichida bo‘lsa.
+Agar flex-basis ishlatilsa, width va height avtomatik ravishda e'tiborga olinmaydi.
+
+Agar flex-direction: row; bo‘lsa → flex-basis kenglikni (width) belgilaydi.
+Agar flex-direction: column; bo‘lsa → flex-basis balandlikni (height) belgilaydi.
+
+flex bu CSS Flexbox tizimining muhim qismlaridan biri bo‘lib, flex itemlarning o‘lchami va joylashuvini belgilaydi.
+ Flex = flex-grow, flex-shrink, flex-basis qismlarining qisqartirilgan shakli.
+ .item {
+  flex: <grow> <shrink> <basis>;
+}
+Agar faqat bitta qiymat yozilsa, flex-grow deb qabul qilinadi.
+
+ -->
